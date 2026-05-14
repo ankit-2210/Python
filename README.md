@@ -20,3 +20,6 @@ Django and Flask for web development
 Pandas and NumPy for data analysis
 TensorFlow and PyTorch for AI/ML
 Selenium for automation
+
+Official website of Python:
+https://www.python.org/
