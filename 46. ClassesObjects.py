@@ -113,3 +113,25 @@ harry.section = 1
 larry.std = 9
 larry.subjects = ["hindi", "physics"]
 print(harry.section, larry.subjects)
+
+
+# The self parameter is a reference to the current instance of the class,
+# and is used to access variables that belong to the class.
+
+
+class Person:
+    name = "Ankit"
+    phone = "123456"
+
+    def info(self):
+        print(f"{self.name} and {self.phone}")
+
+
+a = Person()
+print(a.name, a.phone)
+a.info()
+
+b = Person()
+b.name = "Aman"
+b.phone = "12345678"
+b.info()
