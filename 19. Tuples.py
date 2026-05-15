@@ -1,6 +1,8 @@
 # Tuples in Python:
-# A tuple is an immutable data type in Python. A tuple in python is a collection of elements enclosed in () (parentheses).
-# Tuple once defined can’t be changed i.e. its elements or values can’t be altered or manipulated.
+# A tuple is an immutable data type in Python.
+# A tuple in python is a collection of elements enclosed in () (parentheses).
+# Tuple once defined can’t be changed i.e. its elements or values
+# can’t be altered or manipulated.
 
 # Tuples in Python :
 a = ()  # It's an example of empty tuple
@@ -27,6 +29,9 @@ temp.pop(2)
 countries = tuple(temp)
 print(countries)
 
+for i in countries:
+    print(i, end=" ")
+print("\n")
 
 # Practice
 grocery = ["Harpic", "vim bar", "deodrant", "Bhindi", "Lollypop", 56]

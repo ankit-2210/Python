@@ -45,12 +45,20 @@ function_to_be_used()
 # functions to a decorator that requires the same sort of code that the wrapper provides.
 # • We can get our work done, without any alteration in the original code of our function.
 # • We can apply multiple decorators to a single function.
-# • We can use decorators in authorization in Python frameworks such as Flask and Django, Logging and measuring execution time.
+# • We can use decorators in authorization in Python frameworks such as Flask
+# and Django, Logging and measuring execution time.
 
 
-# We can do a lot with decorators like Multiple decorators that can be applied to a single function.
+# We can do a lot with decorators like Multiple decorators that can be applied
+# to a single function.
 # I hope this tutorial serves as a good introduction to decorators in Python.
-# After understanding the basics of Python decorator, learn more advanced use cases of decorators, and how to apply them to classes.
+# After understanding the basics of Python decorator, learn more advanced use
+# cases of decorators, and how to apply them to classes.
+
+
+# A decorator is a function that takes another function as a argument
+# and returns a new function that modifies the behaviour of the original
+# function.
 
 
 def function1():
