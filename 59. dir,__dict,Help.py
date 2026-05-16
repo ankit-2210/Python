@@ -24,3 +24,4 @@ print(p.__dict__)  # {'name': 'John', 'age': 30}
 # help() method
 # The help() function is used to get help documentation for an object,
 # including a description of its attributes and methods.
+print(help(Person))
